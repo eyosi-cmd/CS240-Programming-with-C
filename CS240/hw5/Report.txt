@@ -1,0 +1,52 @@
+1. Hours to complete the project: 9 hours
+
+a. What would the optional command-line arguments do?
+    By default, m is 64, n 2^20 and seed 2019, so when I run the program only ./cntSort, 
+it uses the default values of m, n, seed. However there is an optional command-line argument 
+has given in the main program, so it would allow passing different values of m, n, and seed
+as a command-line argument that means it will allow a user to overwrite m, n, and seed from default values.
+    For example,  ./cntSort -m 100000 -n 100 (it allows to test different cases of running time for counting sort 
+and quick sort by putting different values of m, n, and seed to see results).
+
+b. Pair of m and n such that counting sort is faster than quicksort
+    Counting sort is faster than the quicksort when the number of m is lower than the number of n 
+The given example for this homework is one of the inputs -m 64 -n 1048576 that shows that
+when counting sort is faster than quicksort.
+
+c. Another pair such that quicksort is faster than counting sort
+
+    After doing multiple trials, I noticed that when the values of m should be
+at least n^3 or more times higher than the value of n, to find the case when 
+counting sort will be slower than quicksort.
+ For example: ./cntSort -m 100000 -n 100 (quicksort is faster than counting sort)
+(With a general assumption, m should be extremly larger than n to find cases that 
+quicksort would be faster than counting sort.)
+
+d. Discussion:
+   I have done multiple trials using different values of m, n, and seed 
+to see different cases when counting sort is faster than quicksort and vice-versa.
+I found out that when m is smaller than n, the counting sort performs faster than
+the quicksort. When values of m and n are very small, there is not a difference in
+milliseconds, both algorithms are very fast or they will perform under 00ms.
+However, when m extremely larger than n, quicksort performs faster than
+counting sort. It makes sense because quicksort's worst case is O(n^2) but its
+average case is O(N log N). Even though cntSort consider to be O(n+m) or linear 
+with assumptions of m will be less than n in most cases, but in some cases that is not true. 
+for example, when m greater than n in a larger amount, counting sort performs almost 
+like a quadratic or O(n^2) on its worst case, so it will create a chance for quicksort 
+to outperform faster than counting sort. Also, as reminder quicksort has O(N log N) 
+on its best or average case, so that is another advange than quicksort have in larger numbers.
+
+    In general, I found this homework to be less challenging than the other homework. 
+It requires more intuition/thinking than technicality in the coding part.
+But I was also little bit confused on the part that deals with counting array, 
+and how it works in terms of counting the frequency of similar elements in the data array. 
+However, after reading the assignment guideline carefully,I was able to understand and create 
+an counting sort algorism for counting array and updating the elements of data array in sorted order.
+
+2.  All the source that used to complete this homework
+
+    Youtube vid: "Counting sort algorithms" 
+    Book: The C Programming Language by Brian W. Kernighan, 
+           about 'digit' c program and for-loops.
+    Note: From the class notes, I read about memory allocations, unsigned int, pointers, and quicksort.

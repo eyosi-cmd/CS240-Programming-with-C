@@ -1,0 +1,17 @@
+1. Hours to complete the project: 10 hours
+
+a. I found this homework more difficult than the other previous homework assignments.
+Some of the difficulties that I encountered during this project was using a stack 
+to add and remove data. Also because stacks are not in c programming library by default.
+ However, after reading the instruction pages carefully how was able to understand 
+the requirements and got the directions to approach this homework. 
+
+b. I learned how to utilize points to find the convex hull and apply Grahams scan 
+to solve this problem. The other important thing that I learned in this class was 
+about time complexity in different algorithms. I also got good practice on implementing 
+pointers in a different part of the problem.
+2.  All the source that used to complete this homework:
+
+   Book: The C Programming Language by Brian W. Kernighan, 
+           about pointers, structures, quick sort, memory allocating for pointers, and stacks.
+    Note: From the class notes, I read about memory allocations, pointers, and quicksort, and structures.

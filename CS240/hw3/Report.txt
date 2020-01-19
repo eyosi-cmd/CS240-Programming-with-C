@@ -1,0 +1,24 @@
+1. Hours to complete the project: 10 hours
+
+2. Write a Report.txt that discusses what you found difficult about this assignment, how you planned
+ your approach to it, and what you learned completing it.
+
+    The instructions for this project was straight forward which the steps to solve the problem have already given clearly on the pdf file. 
+The first challenge was to know the right calculation to convert an integer to quaternary and vigesimal number system.
+Even though, hints was given in "itox.h" file and the pdf file, I still have to know how to apply the ASCII numerical expressions for each character 
+in the two given number systems. Also, storing the quaternary and vigesimal strings in the array with correct position and values was challenging
+because I was getting output in reverse order at first compared to the right output of the problem. So, I used a for loop to store the values 
+from the end of the array to the beginning that let me get the right output and size. The other challege was on how to re-covert the corginal decimal input
+without using pow() fuction to find multiplier of 4 and 20 in problem, so I created another array called power to store each power values of 4 and 20, and
+I used the class note about decimal to hexadecimal converstion to deal this portion of the problem. Overall, following the insturtions in the pdf files do
+most parts of the problem. 
+
+
+
+3. All the source that used to compelete this homework
+
+    Google search: how to convert hex to decimal and decimal to hex
+    Book: The C Programming Language by Brian W. Kernighan, 
+           about number systems
+    Note: From the class notes, I read about number conversion calcualtions
+         so I could apply in my code.

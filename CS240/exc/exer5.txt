@@ -1,0 +1,17 @@
+Name: Eyosias Kibe    CS240
+6/13/2019
+
+
+a) write first 10 numbers
+0, 1, 2 (base 3)
+
+Ternary: 0,1,2,10,11,12, 20,21, 22, 100
+(This are the first 10 numbers in ternary)
+
+b) define complement
+ (b-1)'s complement when the base 3
+ For example: '10' (base 3 ):
+ 2's complement for '10' is '221' or -2 (signed) and 25 (unsigned)
+ 3's complement for '10' in ternary is '222' or -1 (signed) and 26 (unsigned)
+c) Digit wise Oprations
+yes, digit wise might work in ternary number system but computers will work only in binary it's always requred binary converstion specially in performing c programing langues, (but there will be a perblem on performing XOR in ternary since (base 3 number) will be created with 3 digits, one digit will be an outlayer). Like a XOR b = b XOR a, but it will not work with a, b, c.

@@ -1,0 +1,41 @@
+char Casar(char s) {
+	switch(s) {
+		case 'a' :s = 'd';break; 
+        case 'b' :s ='e'; break; 
+        case 'c' :s ='f'; break; 
+        case 'd' :s ='g'; break; 
+		case 'w' :s ='z'; break; 
+        case 'x' :s ='a'; break;
+		case 'y' :s ='b'; break; 
+        case 'z' :s ='c'; break; 
+        default:;	
+	}
+	return s;
+}
+
+char func(char c) {
+char temp;
+temp = (ch >= 'a' && ch <= 'z') 
+? ch = ((ch - 'a' -3) % 26 + 'a'): ch;
+return temp;
+
+}
+
+	char msg[] = "my secret message";
+	p3 = malloc(sizeof(msg));
+	p1 = msg; 
+    char *p1, *p2;
+ 	for (int i = 0; i < sizeof(msg); i++)
+	{
+		p3[i] = Casar((char) *(p1 + i));
+	} 
+	int i = 0; 
+	p2 = p3;
+
+	while(i < sizeof(msg))
+		unshift[i] = unshifted((char) *(p2 + i)), i++;
+	printf("Orginal Text: %s\n", msg);
+
+	printf("Shifted lower: %s\n", p3);
+	printf("unshifted back: %s\n", unshift);
+	printf("\n");

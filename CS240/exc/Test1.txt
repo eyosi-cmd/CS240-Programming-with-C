@@ -1,0 +1,50 @@
+7 Question or 1 Question extra
+0 8
+enum { A = 4, B, C} 
+printf("%d%d", A, C) = 4, 6
+
+int x = 2, y =5;
+r = y%x;
+prinf("%d", r); = 1
+r = x%y
+printf("%d", r); = 2
+
+int a[] = {9,2};
+printf("%d" *a);
+const int a = 5;
+a++;
+printf("%d", a);
+000
+1's comp
+111
+2's comp
+111
++ 1
+1000
+nibble = 4 bits
+1111
+ 110
+0001
+Binary to Dec
+Dec to Binary
+Hex to Dec
+
+Bitwise 
+Shift left 
+0010 = 2 (multi by 2)
+0100 = 4
+shift right
+0010 (divide by 2)
+0001 = 1
+Recr 1 question
+Towers of Hanoi
+2^n -1 
+1     1 move
+2     3 moves
+3     7 moves
+move (n-1, 1, 3, 2)
+move (1, 1, 2, 3)
+move(n-1, 2,1, 3)
+//Non- Attacking Queens (Board)
+ 
+

@@ -1,0 +1,22 @@
+1. Hours to complete the project: 7 hours
+
+2. Write a Report.txt that discusses what you found difficult about this assignment, how you planned
+ your approach to it, and what you learned completing it.
+
+    At first, I did find a difficult time making sense the logic behind this problem. 
+So, I wrote a Sudo-code to understand how letters counting works, and word countings work.
+Also, I kept getting zeros for the word countings because I did not know what alphanumeric means 
+until I search on google what are alphanumeric characters. Formatting the width of the output 
+and determining the length for asterisks is also another problem that challenged me, 
+but after looking at the notes and the book I understand how formatting works in programming c.
+In general, the digit exercise that we did in a class was a base that I used to do this homework.
+
+
+
+3. All the source that used to compelete this homework
+
+    Google search: what is Alphanumeric? (tutorial point programming c)
+    Book: The C Programming Language by Brian W. Kernighan, 
+           about how 'printf' works in terms of an output formation,
+           int to float conversion, and implementing additional methods.
+    Note: from the class note, I used the main method structure of a c code.

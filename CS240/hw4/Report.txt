@@ -1,0 +1,49 @@
+1. Hours to complete the project: 10 hours
+
+2. Write a Report.txt that discusses what you found difficult about this assignment, how you planned
+ your approach to it, and what you learned completing it.
+Pseudocode:
+    Problem 1: First I created enum varible called 'sum' for fullAdderSum(),
+             and another enum varible called 'Cout' fullAdderCarry(). 
+            sum to stores XOR of P, Q, and Cin and Cout get XAND of P, Q, and Cin.
+             at the end they both return binary bits either 1 or 0.
+Problem 2: For myAdder I have to create an opration that would compute for a 32-bits integer 
+           that meas the psedudocode already given on the assignment pages. 
+          1. Initialize Cin to zero
+          2. For i = 0, . . . ,31
+            (a) Extract the i-th bits from P and Q
+            (b) Use fullAdderSum() and fullAdderCarry()
+            to calculate the sum bit S and the carry bit Cout
+            (c) Write the sum bit to the i-bit of mySum
+            (d) Move Cout to Cin for the next iteration
+        
+Discussion:
+adder.c Problem 1:  This problem is easy, and it is already given as an example 
+              how to add two numbers using XOR to find the sum and XAND to store the Cout. 
+              So for the full adder, I just have to implement the formula to add three numbers 
+              and return the sum and the Cout. In fullAdderSum() function I added P and Q first,
+              and it adds the result with Cin using XOR. I applied the same mechanism to find the Carry bit, 
+              but a little more feature on it which is how to find the sum of P, Q, and Cin compare it with
+              Cout of P and Q, so it won't create a short circuit in a typical idea. 
+              Applying Demorgans law was helpful to go over this problem, and also the assignment was clear
+              all essential information have briefly listed on the assignment guidelines. 
+              The only challenge I faced was when I was looking for the right algorithm to perform this task
+              without missing a single communication in the operation that leads to finding Sum and Carry 
+              for the fullAdder.
+                    
+myAdder.c Problem 2: This problem is challenging and tricky.
+                     The hardest part of the problem is extracting each values bit by bit,
+                     avoiding overflows in the calculations, and the whole thing about 
+                     updating Cin. However, the steps were hinted in the assignment pages
+                     guideline and watching a video about building a 32-bit adder helps to 
+                     visualize how to build nodes and connect from 8-bit to 32-bit adder.
+                     From this problems I learned how 32-bits processors work.
+                         
+            
+3. All the source that used to compelete this homework
+
+    Google search: Demorgans Law and Bitwise Oprations
+    Youtube vid:"7.1 Building a 32-bit Adder
+    Book: The C Programming Language by Brian W. Kernighan, 
+           about how left and right shift works.
+    Note: From the class notes, I read about unsined int bit values. Lecture 7, and Lecture 8
